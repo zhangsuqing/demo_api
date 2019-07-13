@@ -1,0 +1,120 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.yoren.srs.demo.config.GuavaProperties",
+      "name": "guava.cache.config",
+      "type": "cn.yoren.srs.demo.config.GuavaProperties"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.JedisProperties",
+      "name": "redis.server",
+      "type": "cn.yoren.srs.demo.config.JedisProperties"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.utils.JwtUtils",
+      "name": "renren.jwt",
+      "type": "cn.yoren.srs.demo.utils.JwtUtils"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.yoren.srs.demo.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.concurrency-level",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.expire-after-access-duration",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.expire-after-write-duration",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.initial-capacity",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.maximum-size",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.maximum-weight",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.GuavaProperties",
+      "defaultValue": 0,
+      "name": "guava.cache.config.refresh-duration",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.JedisProperties",
+      "name": "redis.server.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.JedisProperties",
+      "defaultValue": 0,
+      "name": "redis.server.max-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.JedisProperties",
+      "defaultValue": 0,
+      "name": "redis.server.max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.JedisProperties",
+      "defaultValue": 0,
+      "name": "redis.server.max-wait-millis",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.JedisProperties",
+      "name": "redis.server.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.JedisProperties",
+      "defaultValue": 0,
+      "name": "redis.server.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.config.JedisProperties",
+      "defaultValue": 0,
+      "name": "redis.server.time-out",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.utils.JwtUtils",
+      "defaultValue": 0,
+      "name": "renren.jwt.expire",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.utils.JwtUtils",
+      "name": "renren.jwt.header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.yoren.srs.demo.utils.JwtUtils",
+      "name": "renren.jwt.secret",
+      "type": "java.lang.String"
+    }
+  ]
+}

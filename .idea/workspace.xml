@@ -1,0 +1,1451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76992b08-8274-42d8-83cc-7477d6bb99c1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/zsqhs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generate_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_support_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatisplus_spring_boot_starter_1_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_logback_extensions_logback_ext_spring_0_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_17_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/dto/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysCaptchaBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysMenuBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysRoleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysRoleMenuBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysUserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysUserRoleBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysUserTokenBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/TbUserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/form/PasswordForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/form/SysLoginForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/annotation/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/annotation/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/config/AdminContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/ShiroServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysCaptchaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserTokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/ShiroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysCaptchaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysCaptchaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysRoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserTokenMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/exception/RRExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/oauth2/AccessConfiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/oauth2/AuthWebInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/ConvertUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/ErrorEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/HttpContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/JsonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/LoggerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/TokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysCaptcha.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysMenu.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysRole.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysRoleMenu.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUser.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUserRole.sql.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUserToken.sql.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/demo/common/entity/ActivityBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/bean/UserContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/bean/UserContextImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/bean/UserContextProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/bean/UserUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/ActivityAddressBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/ActivityPrizeBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/AdminBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/CodebatchJobBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/ExchangecodeBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/PrizeBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/RecordBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/dto/ActivityPrizeResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/dto/CodeExcelGenerateDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/dto/ExchangeCodeResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/entity/dto/PrizeResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/util/CommonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/util/ExcelHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/util/ExcelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_common/src/main/java/cn/yoren/srs/exchange/common/util/LoginAdminInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/src/main/java/cn/yoren/srs/exchange/config/GuavaCacheConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/src/main/java/cn/yoren/srs/exchange/config/GuavaProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/src/main/java/cn/yoren/srs/exchange/config/JedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/src/main/java/cn/yoren/srs/exchange/config/JedisProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/src/main/java/cn/yoren/srs/exchange/config/RedisClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/src/main/java/cn/yoren/srs/exchange/config/RedisKeyEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/src/main/java/cn/yoren/srs/exchange/config/SpringContextUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_config/src/main/java/cn/yoren/srs/exchange/config/SpringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/config/MvcConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/ActivityAddressSearchDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/BatchRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/CodeRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/CodesExcelRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/GateWayResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/GenerateCodesDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/LoginForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/PageForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/PrizeRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/PrizeSearchDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/SendMessageServiceDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/dto/ValidateCodeForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/enums/ActivityStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/enums/ExchangeCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/enums/GateWayResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/enums/RecordEventTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/enums/RoleTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/enums/ShortMessageTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/filter/AdminBackendInteceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/filter/UserSecurityInteceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/filter/WebConfigure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/ActivityAddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/ActivityPrizeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/ActivityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/AdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/CodebatchJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/ExchangecodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/PrizeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/RecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/api/SendMessageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/impl/ActivityAddressServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/impl/ActivityPrizeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/impl/ActivityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/impl/AdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/impl/CodebatchJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/impl/ExchangecodeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/impl/PrizeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/impl/RecordServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/support/ActivityPrizeSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_core/src/main/java/cn/yoren/srs/exchange/core/service/support/GenerateCodesSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/dao/ActivityAddressMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/dao/ActivityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/dao/ActivityPrizeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/dao/AdminMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/dao/CodebatchJobMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/dao/ExchangecodeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/dao/PrizeMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/java/cn/yoren/srs/exchange/domain/dao/RecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/sqlmaps/Activity.sql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/sqlmaps/ActivityAddress.sql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/sqlmaps/ActivityPrize.sql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/sqlmaps/Admin.sql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/sqlmaps/CodebatchJob.sql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/sqlmaps/Exchangecode.sql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/sqlmaps/Prize.sql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_dao/src/main/resources/sqlmaps/Record.sql.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/LawsonExchangeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/ActivityAddressController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/ActivityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/ActivityPrizeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/BatchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/ExchangeCodeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/ExchangeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/java/cn/yoren/srs/exchange/web/controller/PrizeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/resources/application-local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange_web/src/main/resources/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/demo_web/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/demo_common/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SysUserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1325">
+              <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysUserRole.sql.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUserRole.sql.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2075">
+              <caret line="83" column="31" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysUserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1600">
+              <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+              <folding>
+                <element signature="e#1831#1832#0" expanded="true" />
+                <element signature="e#1894#1895#0" expanded="true" />
+                <element signature="method#update#0;class#SysUserServiceImpl#0" />
+                <element signature="method#deleteBatch#0;class#SysUserServiceImpl#0" />
+                <element signature="method#updatePassword#0;class#SysUserServiceImpl#0" />
+                <element signature="method#checkRole#0;class#SysUserServiceImpl#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysUserMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysUser.sql.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUser.sql.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+              <folding>
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#delete#0;n#mapper#0;n#!!top" />
+                <element signature="n#insert#1;n#mapper#0;n#!!top" />
+                <element signature="n#update#0;n#mapper#0;n#!!top" />
+                <element signature="n#update#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="n#select#3;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>application</find>
+      <find>resources</find>
+      <find>classpath</find>
+      <find>https://repo.maven.apache.org/maven2</find>
+      <find>lifecycle-mapping</find>
+      <find>mybatis-generator</find>
+      <find>151.101.52.215</find>
+      <find>sysCaptchaController</find>
+      <find>port</find>
+      <find>token</find>
+      <find>getRequestToken</find>
+      <find>createToken</find>
+      <find>pagehelper</find>
+      <find>mybatis-plus.version</find>
+      <find>checkPrems</find>
+      <find>queryMenuIdList</find>
+      <find>getMemberDiscount</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\workspace\code\test\demo_api\demo_web\src\main\resources</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysCaptchaController.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/ShiroService.java" />
+        <option value="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysMenuBean.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/DemoController.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/HttpContextUtils.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/oauth2/OAuth2Realm.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/AbstractController.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/JwtUtils.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/annotation/Login.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/config/AuthorizationInterceptor.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysCaptchaService.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/oauth2/OAuth2Filter.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/config/AdminContext.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/oauth2/AccessConfiger.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysCaptcha.sql.xml" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysCaptchaMapper.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysCaptchaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUserToken.sql.xml" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserTokenMapper.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserTokenServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserTokenService.java" />
+        <option value="$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysUserBean.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/oauth2/AuthWebInterceptor.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysLoginController.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysMenu.sql.xml" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysMenuMapper.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/ShiroServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysRoleMapper.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_web/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysMenuService.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysRole.sql.xml" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysRoleMenu.sql.xml" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysRoleMenuMapper.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysRoleMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysRoleMenuService.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysRoleController.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysMenuController.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUserRole.sql.xml" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserRoleService.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUser.sql.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo_api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo_api" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo_api" type="462c0819:PsiDirectoryNode" />
+              <item name="demo_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlmaps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../yoren/lawson_pos_api" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\code\test\demo_api\demo_web\src\main\resources" />
+      <recent name="E:\workspace\code\test\demo_api\demo_web\src\main\resources\config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.yoren.srs.demo.oauth2" />
+      <recent name="cn.yoren.srs.demo.config" />
+      <recent name="cn.yoren.srs.demo.utils" />
+      <recent name="cn.yoren.srs.demo.web.controller" />
+      <recent name="cn.yoren.srs.demo.core.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\code\test\demo_api\demo_web\src\main\java\cn\yoren\srs\demo" />
+      <recent name="E:\workspace\code\test\demo_api\demo_common\src\main\java\cn\yoren\srs\demo\common\entity" />
+      <recent name="E:\workspace\code\test\demo_api\demo_web\src\main\java\cn\yoren\srs\demo\core\impl" />
+      <recent name="E:\workspace\code\test\demo_api\demo_web\src\main\java\cn\yoren\srs\demo\web\controller" />
+      <recent name="E:\workspace\code\test\demo_api\demo_web\src\main\java\cn\yoren\srs\demo\core\service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LawsonDemoApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="demo_api [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="LawsonDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo_web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.yoren.srs.demo.web.LawsonDemoApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.LawsonDemoApplication" />
+      <item itemvalue="Maven.demo_api [mybatis-generator:generate]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.demo_api [mybatis-generator:generate]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76992b08-8274-42d8-83cc-7477d6bb99c1" name="Default" comment="" />
+      <created>1562561579057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562561579057</updated>
+      <workItem from="1562561580432" duration="10569000" />
+      <workItem from="1562583378586" duration="2339000" />
+      <workItem from="1562635189853" duration="1220000" />
+      <workItem from="1562660759282" duration="7005000" />
+      <workItem from="1562721801813" duration="595000" />
+      <workItem from="1562730265572" duration="8485000" />
+      <workItem from="1562745960392" duration="558000" />
+      <workItem from="1562816253741" duration="21518000" />
+      <workItem from="1562895021538" duration="21626000" />
+      <workItem from="1562999336950" duration="705000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74620000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.15214477" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" weight="0.21045576" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.33097595" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32956153" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.35219237" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32956153" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.14144272" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.3649222" />
+      <window_info anchor="bottom" id="Spring" order="4" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.32956153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2386059" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.14851485" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="167" column="6" selection-start-line="167" selection-start-column="6" selection-end-line="167" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysCaptcha.sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysCaptchaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1001">
+          <caret line="351" column="13" selection-start-line="351" selection-start-column="13" selection-end-line="351" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysCaptchaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="24" column="50" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysCaptchaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUserToken.sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserTokenMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="26" column="48" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/ShiroService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="158" column="13" selection-start-line="158" selection-start-column="13" selection-end-line="158" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/oauth2/AccessConfiger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/ShiroServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-251">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#1921#1922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/config/AdminContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserTokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserTokenServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/TokenGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/AbstractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/oauth2/AuthWebInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="20" />
+          <folding>
+            <element signature="n#profile#0;n#profiles#0;n#project#0;n#!!top" />
+            <element signature="n#profile#1;n#profiles#0;n#project#0;n#!!top" />
+            <element signature="n#profile#2;n#profiles#0;n#project#0;n#!!top" />
+            <element signature="n#distributionManagement#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="85" column="41" selection-start-line="85" selection-start-column="41" selection-end-line="85" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.9/mybatis-plus-support-2.1.9-sources.jar!/com/baomidou/mybatisplus/service/IService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="134" column="12" selection-start-line="134" selection-start-column="12" selection-end-line="134" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysMenuBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="3801" lean-forward="true" selection-start-line="3801" selection-end-line="3801" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysRoleMenu.sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="83" column="50" selection-start-line="83" selection-start-column="48" selection-end-line="83" selection-end-column="50" />
+          <folding>
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysRoleMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysRoleMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding>
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1794#1795#0" expanded="true" />
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysRoleMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/utils/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysRole.sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/LawsonDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysMenu.sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="131" column="4" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="4" />
+          <folding>
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysMenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysMenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="59" column="13" lean-forward="true" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+          <folding>
+            <element signature="e#1977#1978#0" expanded="true" />
+            <element signature="e#2041#2042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_common/src/main/java/cn/yoren/srs/demo/common/entity/SysUserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-818">
+          <caret line="48" column="58" lean-forward="true" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
+          <folding>
+            <element signature="method#list#0;class#SysMenuController#0" />
+            <element signature="method#select#0;class#SysMenuController#0" />
+            <element signature="method#info#0;class#SysMenuController#0" />
+            <element signature="method#save#0;class#SysMenuController#0" />
+            <element signature="method#update#0;class#SysMenuController#0" />
+            <element signature="method#delete#0;class#SysMenuController#0" />
+            <element signature="method#verifyForm#0;class#SysMenuController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#1622#1623#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="119" column="31" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
+          <folding>
+            <element signature="method#info#0;class#SysRoleController#0" />
+            <element signature="method#getLeafMonitortype#0;class#SysRoleController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUserRole.sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2075">
+          <caret line="83" column="31" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/web/controller/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/core/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="94" column="26" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+          <folding>
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="method#update#0;class#SysUserServiceImpl#0" />
+            <element signature="method#deleteBatch#0;class#SysUserServiceImpl#0" />
+            <element signature="method#updatePassword#0;class#SysUserServiceImpl#0" />
+            <element signature="method#checkRole#0;class#SysUserServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/java/cn/yoren/srs/demo/domain/dao/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_web/src/main/resources/sqlmaps/SysUser.sql.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+          <folding>
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo_api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="mybatis-generator:generate--Run" />
+  </component>
+</project>
