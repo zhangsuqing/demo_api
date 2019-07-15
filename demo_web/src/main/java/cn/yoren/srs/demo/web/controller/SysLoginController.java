@@ -7,7 +7,6 @@ import cn.yoren.srs.demo.core.service.SysCaptchaService;
 import cn.yoren.srs.demo.core.service.SysUserService;
 import cn.yoren.srs.demo.core.service.SysUserTokenService;
 import cn.yoren.srs.demo.utils.JsonData;
-import cn.yoren.srs.demo.utils.R;
 import org.apache.shiro.crypto.hash.Sha256Hash;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
