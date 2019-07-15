@@ -155,12 +155,16 @@
 			LEFT JOIN sys_role_menu rm on ur.role_id = rm.role_id
 		where ur.user_id = #{userId}
 	</select>
-
+    <!--根据用户名查询用户-->
     <select id="queryByUserName" resultMap="BaseResultMap">
-		select * from sys_user where username = #{username}
+		select
+        <include refid="Base_Column_List" />
+        from sys_user where username = #{username}
 	</select>
-
+    <!--获取所有用户信息-->
     <select id="selectUserList" resultMap="BaseResultMap">
-        select *  from sys_user
+        select
+        <include refid="Base_Column_List" />
+        from sys_user
     </select>
 </mapper>

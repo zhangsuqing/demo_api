@@ -19,36 +19,22 @@ package cn.yoren.srs.demo.core.impl;
 import cn.yoren.srs.demo.common.entity.SysCaptchaBean;
 import cn.yoren.srs.demo.core.service.SysCaptchaService;
 import cn.yoren.srs.demo.domain.dao.SysCaptchaMapper;
-import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
-import java.util.Map;
 import java.util.Random;
 
 /**
  * 验证码
  *
- * @author Mark sunlightcs@gmail.com
- * @since 2.0.0 2018-02-10
+ * @author zsq
  */
 @Service("sysCaptchaService")
 public class SysCaptchaServiceImpl implements SysCaptchaService {
 
     @Resource
     SysCaptchaMapper sysCaptchaMapper;
-    @Override
-    public Page queryPage(Map<String, Object> params) {
-        return null;
-    }
-
-    @Override
-    public List<SysCaptchaBean> queryList(Map<String, Object> params) {
-        return null;
-    }
 
     @Override
     public String getCaptcha(String uuid) {

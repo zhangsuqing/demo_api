@@ -19,8 +19,7 @@ package cn.yoren.srs.demo.common.entity.form;
 /**
  * 登录表单
  *
- * @author Mark sunlightcs@gmail.com
- * @since 2.0.0 2018-01-25
+ * @author zsq
  */
 public class SysLoginForm {
     private String username;

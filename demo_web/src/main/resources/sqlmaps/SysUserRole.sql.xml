@@ -80,7 +80,7 @@
             and user_id = #{userId}
         </if>
     </delete>
-
+    <!--查询当前用户拥有的角色id-->
     <select id="queryRoleIdList" resultType="long">
 		select role_id from sys_user_role where user_id = #{value}
 	</select>

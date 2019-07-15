@@ -28,7 +28,7 @@ public interface SysRoleMenuMapper{
 
     int updateByPrimaryKey(SysRoleMenuBean record);
     /**
-     * 根据角色ID，获取菜单ID列表
+     * 根据角色ID，获取菜单列表
      */
     List<SysMenuBean> queryMenuIdList(Long roleId);
 

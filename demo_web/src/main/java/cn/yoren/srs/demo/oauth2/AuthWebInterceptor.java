@@ -5,6 +5,7 @@ import cn.yoren.srs.demo.common.entity.SysUserTokenBean;
 import cn.yoren.srs.demo.config.AdminContext;
 import cn.yoren.srs.demo.core.service.SysUserService;
 import cn.yoren.srs.demo.core.service.SysUserTokenService;
+import cn.yoren.srs.demo.utils.JsonData;
 import com.alibaba.fastjson.JSON;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -33,9 +34,11 @@ public class AuthWebInterceptor implements HandlerInterceptor {
 		if (StringUtils.isNotBlank(token)) {
 			SysUserTokenBean tokenBean = userTokenService.queryByToken(token);
 			SysUserBean user = userService.selectByPrimaryKey(tokenBean.getUserId());
-			if (user != null) {
+			if (user != null && tokenBean.getExpireTime().getTime() >= System.currentTimeMillis()) {
+				userTokenService.updateTokenExpire(user.getUserId());
 				AdminContext.set(user);
 			} else {
+				printJson(response,"");
 				return false;
 			}
 		} else {
@@ -70,5 +73,22 @@ public class AuthWebInterceptor implements HandlerInterceptor {
 				writer.close();
 		}
 	}
-
+	private static void printJson(HttpServletResponse response, String code) {
+		JsonData jsonData = new JsonData().error("403","token过期,请重新登陆");
+		String content = JSON.toJSONString(jsonData);
+		printContent(response, content);
+	}
+	private static void printContent(HttpServletResponse response, String content) {
+		try {
+			response.reset();
+			response.setContentType("application/json");
+			response.setHeader("Cache-Control", "no-store");
+			response.setCharacterEncoding("UTF-8");
+			PrintWriter pw = response.getWriter();
+			pw.write(content);
+			pw.flush();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
 }

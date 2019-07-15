@@ -15,10 +15,19 @@ import java.util.List;
  * @date 2019-07-09 16:29:43
  */
 public interface SysUserService{
+    /**
+     * 用户分页
+     * @param params
+     * @return
+     */
     PageInfo<SysUserBean> queryPage(Map<String, Object> params);
 
+    /**
+     * 用户详情
+     * @param userId
+     * @return
+     */
     SysUserBean selectByPrimaryKey(Long userId);
-
 
     /**
      * 查询用户的所有权限

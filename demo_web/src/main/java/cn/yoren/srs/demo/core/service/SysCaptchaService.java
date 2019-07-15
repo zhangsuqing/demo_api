@@ -1,13 +1,5 @@
 package cn.yoren.srs.demo.core.service;
 
-import cn.yoren.srs.demo.common.entity.SysCaptchaBean;
-import com.baomidou.mybatisplus.plugins.Page;
-import com.baomidou.mybatisplus.service.IService;
-
-import java.awt.image.BufferedImage;
-import java.util.Map;
-import java.util.List;
-
 /**
  * 系统验证码
  *
@@ -15,10 +7,6 @@ import java.util.List;
  * @date 2019-07-09 16:29:43
  */
 public interface SysCaptchaService {
-
-    Page queryPage(Map<String, Object> params);
-
-    List<SysCaptchaBean> queryList(Map<String, Object> params);
 
     /**
      * 获取图片验证码

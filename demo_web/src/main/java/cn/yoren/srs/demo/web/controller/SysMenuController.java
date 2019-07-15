@@ -13,12 +13,9 @@ import cn.yoren.srs.demo.exception.RRException;
 import cn.yoren.srs.demo.utils.Constant;
 import cn.yoren.srs.demo.utils.ErrorEnum;
 import cn.yoren.srs.demo.utils.JsonData;
-import cn.yoren.srs.demo.utils.R;
 import org.apache.commons.lang.StringUtils;
-import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.baomidou.mybatisplus.plugins.Page;
 
 
 
@@ -107,7 +104,7 @@ public class SysMenuController{
         //数据校验
         verifyForm(menu);
 
-        sysMenuService.inserMenu(menu);
+        sysMenuService.insertMenu(menu);
 
         return JsonData.ok();
     }

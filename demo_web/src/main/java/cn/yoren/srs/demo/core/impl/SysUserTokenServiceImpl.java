@@ -20,19 +20,10 @@ import java.util.Map;
 @Service("sysUserTokenService")
 public class SysUserTokenServiceImpl implements SysUserTokenService {
 	//12小时后过期
-	private final static int EXPIRE = 3600 * 12;
+	private final static int EXPIRE = 60;
 
 	@Resource
 	SysUserTokenMapper sysUserTokenMapper;
-	@Override
-	public Page queryPage(Map<String, Object> params) {
-		return null;
-	}
-
-	@Override
-	public List<SysUserTokenBean> queryList(Map<String, Object> params) {
-		return null;
-	}
 
 	@Override
 	public HashMap<String, Object> createToken(long userId) {
@@ -90,5 +81,19 @@ public class SysUserTokenServiceImpl implements SysUserTokenService {
 	@Override
 	public SysUserTokenBean queryByToken(String token) {
 		return sysUserTokenMapper.queryByToken(token);
+	}
+
+	/**
+	 * 更新token过期时间
+	 *
+	 * @param userId
+	 */
+	@Override
+	public int updateTokenExpire(Long userId) {
+		SysUserTokenBean userTokenBean = new SysUserTokenBean();
+		userTokenBean.setUserId(userId);
+		Date now = new Date();
+		userTokenBean.setExpireTime(new Date(now.getTime() + EXPIRE * 1000));
+		return sysUserTokenMapper.updateByPrimaryKeySelective(userTokenBean);
 	}
 }

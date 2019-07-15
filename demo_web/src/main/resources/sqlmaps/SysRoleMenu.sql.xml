@@ -71,25 +71,23 @@
       menu_id = #{menuId,jdbcType=BIGINT}
     where id = #{id,jdbcType=BIGINT}
   </update>
-    <!--<select id="queryMenuIdList" resultType="long">-->
-		<!--select menu_id from sys_role_menu where role_id = #{value}-->
-	<!--</select>-->
+    <!--获取当前角色拥有的菜单列表-->
     <select id="queryMenuIdList" resultType="cn.yoren.srs.demo.common.entity.SysMenuBean">
 		select b.menu_id menuId,b.parent_id parentId
 		from sys_role_menu a
 		left join sys_menu b on a.menu_id = b.menu_id
 		where a.role_id = #{roleId}  and b.type!=2
 	</select>
+    <!--根据角色id删除角色菜单映射-->
     <delete id="deleteBatch">
         delete from sys_role_menu where role_id in
         <foreach item="roleId" collection="array" open="(" separator="," close=")">
             #{roleId}
         </foreach>
     </delete>
-
+    <!--根据菜单id删除角色菜单映射-->
     <delete id="deleteRoleMenuByMenuId">
         delete from sys_role_menu where menu_id = #{menuId}
     </delete>
-
 
 </mapper>

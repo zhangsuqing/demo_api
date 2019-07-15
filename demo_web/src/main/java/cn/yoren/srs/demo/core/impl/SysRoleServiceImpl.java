@@ -15,11 +15,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.baomidou.mybatisplus.plugins.Page;
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import org.apache.commons.lang3.StringUtils;
-
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
@@ -36,6 +31,11 @@ public class SysRoleServiceImpl implements SysRoleService {
     @Autowired
     private SysUserRoleService sysUserRoleService;
 
+    /**
+     * 角色分页
+     * @param params
+     * @return
+     */
     @Override
     public PageInfo<SysRoleBean> queryPage(Map<String, Object> params) {
         Integer currentPage = Integer.parseInt(null==params.get("currentPage")?"1":(String) params.get("currentPage"));
@@ -46,23 +46,34 @@ public class SysRoleServiceImpl implements SysRoleService {
         return pageInfo;
     }
 
+    /**
+     * 角色列表
+     * @return
+     */
     @Override
     public List<SysRoleBean> queryList() {
         return sysRoleMapper.getRoleList();
     }
+
+    /**
+     * 新增角色
+     * @param role
+     */
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void save(SysRoleBean role) {
         role.setCreateTime(new Date());
         sysRoleMapper.insert(role);
-
         //检查权限是否越权
 //        checkPrems(role);
-
         //保存角色与菜单关系
         sysRoleMenuService.saveOrUpdate(role.getRoleId(), role.getMenuIdList());
     }
 
+    /**
+     * 修改角色
+     * @param role
+     */
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void update(SysRoleBean role) {
@@ -75,6 +86,10 @@ public class SysRoleServiceImpl implements SysRoleService {
         sysRoleMenuService.saveOrUpdate(role.getRoleId(), role.getMenuIdList());
     }
 
+    /**
+     * 删除角色
+     * @param roleId
+     */
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void deleteBatch(Long roleId) {
@@ -88,7 +103,11 @@ public class SysRoleServiceImpl implements SysRoleService {
         sysUserRoleService.deleteBatch(roleId,null);
     }
 
-
+    /**
+     * 查询当前用户创建的角色
+     * @param createUserId
+     * @return
+     */
     @Override
     public List<Long> queryRoleIdList(Long createUserId) {
         return sysRoleMapper.queryRoleIdList(createUserId);
@@ -97,21 +116,26 @@ public class SysRoleServiceImpl implements SysRoleService {
     /**
      * 检查权限是否越权
      */
-    private void checkPrems(SysRoleBean role){
-        //如果不是超级管理员，则需要判断角色的权限是否超过自己的权限
-        if(role.getCreateUserId() == Constant.SUPER_ADMIN){
-            return ;
-        }
+//    private void checkPrems(SysRoleBean role){
+//        //如果不是超级管理员，则需要判断角色的权限是否超过自己的权限
+//        if(role.getCreateUserId() == Constant.SUPER_ADMIN){
+//            return ;
+//        }
+//
+//        //查询用户所拥有的菜单列表
+//        List<Long> menuIdList = sysUserService.queryAllMenuId(role.getCreateUserId());
+//
+//        //判断是否越权
+//        if(!menuIdList.containsAll(role.getMenuIdList())){
+//            throw new RRException("新增角色的权限，已超出你的权限范围");
+//        }
+//    }
 
-        //查询用户所拥有的菜单列表
-        List<Long> menuIdList = sysUserService.queryAllMenuId(role.getCreateUserId());
-
-        //判断是否越权
-        if(!menuIdList.containsAll(role.getMenuIdList())){
-            throw new RRException("新增角色的权限，已超出你的权限范围");
-        }
-    }
-
+    /**
+     * 查看角色详情
+     * @param id
+     * @return
+     */
     @Override
     public SysRoleBean selectByPrimaryKey(Long id) {
         return sysRoleMapper.selectByPrimaryKey(id);

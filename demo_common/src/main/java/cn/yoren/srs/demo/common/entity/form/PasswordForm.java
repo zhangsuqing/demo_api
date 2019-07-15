@@ -19,8 +19,7 @@ package cn.yoren.srs.demo.common.entity.form;
 /**
  * 密码表单
  *
- * @author Mark sunlightcs@gmail.com
- * @since 1.4.0 2018-01-25
+ * @author zsq
  */
 public class PasswordForm {
     /**

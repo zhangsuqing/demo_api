@@ -10,17 +10,14 @@ import cn.yoren.srs.demo.utils.Constant;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.apache.commons.lang.RandomStringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.shiro.crypto.hash.Sha256Hash;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
 import java.util.Date;
 import java.util.Map;
 import java.util.List;
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.baomidou.mybatisplus.plugins.Page;
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 
 import javax.annotation.Resource;
 
@@ -35,6 +32,11 @@ public class SysUserServiceImpl implements SysUserService {
     @Resource
     private SysUserMapper sysUserMapper;
 
+    /**
+     * 用户分页
+     * @param params
+     * @return
+     */
     @Override
     public PageInfo<SysUserBean> queryPage(Map<String, Object> params) {
         Integer currentPage = Integer.parseInt(null==params.get("currentPage")?"1":(String) params.get("currentPage"));
@@ -45,6 +47,11 @@ public class SysUserServiceImpl implements SysUserService {
         return pageInfo;
     }
 
+    /**
+     * 用户详情
+     * @param userId
+     * @return
+     */
     @Override
     public SysUserBean selectByPrimaryKey(Long userId) {
         return sysUserMapper.selectByPrimaryKey(userId);
@@ -108,7 +115,7 @@ public class SysUserServiceImpl implements SysUserService {
      */
     @Override
     public void update(SysUserBean user) {
-        if(org.apache.commons.lang.StringUtils.isBlank(user.getPassword())){
+        if(StringUtils.isBlank(user.getPassword())){
             user.setPassword(null);
         }else{
             user.setPassword(new Sha256Hash(user.getPassword(), user.getSalt()).toHex());
@@ -116,7 +123,7 @@ public class SysUserServiceImpl implements SysUserService {
         sysUserMapper.updateByPrimaryKeySelective(user);
 
         //检查角色是否越权
-        checkRole(user);
+//        checkRole(user);
 
         //保存用户与角色关系
         sysUserRoleService.saveOrUpdate(user.getUserId(), user.getRoleIdList());

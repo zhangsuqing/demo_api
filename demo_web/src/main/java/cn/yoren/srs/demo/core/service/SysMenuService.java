@@ -13,17 +13,6 @@ import java.util.List;
  * @date 2019-07-09 16:29:58
  */
 public interface SysMenuService{
-
-    Page queryPage(Map<String, Object> params);
-
-    List<SysMenuBean> queryList(Map<String, Object> params);
-    /**
-     * 根据父菜单，查询子菜单
-     * @param parentId 父菜单ID
-     * @param menuIdList  用户菜单ID
-     */
-    List<SysMenuBean> queryListParentId(Long parentId, List<Long> menuIdList);
-
     /**
      * 根据父菜单，查询子菜单
      * @param parentId 父菜单ID
@@ -41,12 +30,35 @@ public interface SysMenuService{
     List<SysMenuBean> getUserMenuList(Long userId);
 
     /**
-     * 删除
+     * 删除菜单
      */
     void delete(Long menuId);
+
+    /**
+     * 获取所有菜单那
+     * @return
+     */
     List<SysMenuBean> selectMenuList();
+
+    /**
+     * 获取菜单详情
+     * @param menuId
+     * @return
+     */
     SysMenuBean selectByPrimaryKey(Long menuId);
-    int inserMenu(SysMenuBean sysMenuBean);
+
+    /**
+     * 新增菜单
+     * @param sysMenuBean
+     * @return
+     */
+    int insertMenu(SysMenuBean sysMenuBean);
+
+    /**
+     * 修改菜单
+     * @param sysMenuBean
+     * @return
+     */
     int updateMenu(SysMenuBean sysMenuBean);
 }
 

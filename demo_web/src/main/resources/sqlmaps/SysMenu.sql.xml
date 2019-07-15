@@ -118,28 +118,37 @@
         where menu_id = #{menuId,jdbcType=BIGINT}
     </update>
     <update id="updateByPrimaryKey" parameterType="cn.yoren.srs.demo.common.entity.SysMenuBean" >
-    update sys_menu
-    set parent_id = #{parentId,jdbcType=BIGINT},
-      name = #{name,jdbcType=VARCHAR},
-      url = #{url,jdbcType=VARCHAR},
-      perms = #{perms,jdbcType=VARCHAR},
-      type = #{type,jdbcType=INTEGER},
-      icon = #{icon,jdbcType=VARCHAR},
-      order_num = #{orderNum,jdbcType=INTEGER}
-    where menu_id = #{menuId,jdbcType=BIGINT}
-  </update>
-
+        update sys_menu
+        set parent_id = #{parentId,jdbcType=BIGINT},
+          name = #{name,jdbcType=VARCHAR},
+          url = #{url,jdbcType=VARCHAR},
+          perms = #{perms,jdbcType=VARCHAR},
+          type = #{type,jdbcType=INTEGER},
+          icon = #{icon,jdbcType=VARCHAR},
+          order_num = #{orderNum,jdbcType=INTEGER}
+        where menu_id = #{menuId,jdbcType=BIGINT}
+    </update>
+    <!--根据父级菜单id获取所有子菜单-->
     <select id="queryListParentId" resultMap="BaseResultMap">
-		select * from sys_menu where parent_id = #{parentId} order by order_num asc
+		select
+        <include refid="Base_Column_List" />
+        from sys_menu
+        where parent_id = #{parentId}
+        order by order_num asc
 	</select>
-
+    <!--获取所有非按钮菜单-->
     <select id="queryNotButtonList" resultMap="BaseResultMap">
-		select * from sys_menu where type != 2 order by order_num asc
+		select
+       <include refid="Base_Column_List" />
+        from sys_menu
+        where type != 2
+        order by order_num asc
 	</select>
-
+    <!--获取所有菜单-->
     <select id="selectMenuList" resultMap="BaseResultMap">
         select
         <include refid="Base_Column_List" />
         from sys_menu
+        order by order_num asc
     </select>
 </mapper>

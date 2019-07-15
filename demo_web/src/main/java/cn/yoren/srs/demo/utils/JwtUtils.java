@@ -12,9 +12,7 @@ import java.util.Date;
 
 /**
  * jwt工具类
- * @author chenshun
- * @email sunlightcs@gmail.com
- * @date 2017/9/21 22:21
+ * @author zsq
  */
 @ConfigurationProperties(prefix = "renren.jwt")
 @Component

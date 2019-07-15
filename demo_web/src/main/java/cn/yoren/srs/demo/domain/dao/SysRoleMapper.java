@@ -30,5 +30,9 @@ public interface SysRoleMapper{
      */
     List<Long> queryRoleIdList(Long createUserId);
 
+    /**
+     * 获取所有角色
+     * @return
+     */
     List<SysRoleBean> getRoleList();
 }

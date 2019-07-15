@@ -6,17 +6,9 @@ import cn.yoren.srs.demo.core.service.SysRoleMenuService;
 import cn.yoren.srs.demo.core.service.SysUserService;
 import cn.yoren.srs.demo.domain.dao.SysMenuMapper;
 import cn.yoren.srs.demo.utils.Constant;
-import cn.yoren.srs.demo.utils.MapUtils;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
-import java.util.Map;
 import java.util.List;
-import com.baomidou.mybatisplus.mapper.EntityWrapper;
-import com.baomidou.mybatisplus.plugins.Page;
-import com.baomidou.mybatisplus.service.impl.ServiceImpl;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
@@ -25,65 +17,48 @@ import javax.annotation.Resource;
 @Service
 public class SysMenuServiceImpl implements SysMenuService {
     @Resource
-    private SysMenuMapper sysMenuMapper;
-    @Autowired
-    private SysUserService sysUserService;
-    @Autowired
-    private SysRoleMenuService sysRoleMenuService;
+    SysMenuMapper sysMenuMapper;
+    @Resource
+    SysUserService sysUserService;
+    @Resource
+    SysRoleMenuService sysRoleMenuService;
 
-    @Override
-    public Page queryPage(Map<String, Object> params) {
-
-        return null;
-
-
-    }
-
-    @Override
-    public List<SysMenuBean> queryList(Map<String, Object> params) {
-
-        List<SysMenuBean> list = sysMenuMapper.selectMenuList();
-        return list;
-    }
-
-    @Override
-    public List<SysMenuBean> queryListParentId(Long parentId, List<Long> menuIdList) {
-        List<SysMenuBean> menuList = queryListParentId(parentId);
-        if(menuIdList == null){
-            return menuList;
-        }
-
-        List<SysMenuBean> userMenuList = new ArrayList<>();
-        for(SysMenuBean menu : menuList){
-            if(menuIdList.contains(menu.getMenuId())){
-                userMenuList.add(menu);
-            }
-        }
-        return userMenuList;
-    }
-
+    /**
+     * 根据父菜单，查询子菜单
+     * @param parentId 父菜单ID
+     */
     @Override
     public List<SysMenuBean> queryListParentId(Long parentId) {
         return sysMenuMapper.queryListParentId(parentId);
     }
-
+    /**
+     * 获取不包含按钮的菜单列表
+     */
     @Override
     public List<SysMenuBean> queryNotButtonList() {
         return sysMenuMapper.queryNotButtonList();
     }
 
+    /**
+     * 获取当前用户拥有的所有菜单
+     * @param userId
+     * @return
+     */
     @Override
     public List<SysMenuBean> getUserMenuList(Long userId) {
         //系统管理员，拥有最高权限
         if(userId == Constant.SUPER_ADMIN){
             return getAllMenuList(null);
         }
-
         //用户菜单列表
         List<Long> menuIdList = sysUserService.queryAllMenuId(userId);
         return getAllMenuList(menuIdList);
     }
 
+    /**
+     * 删除菜单
+     * @param menuId
+     */
     @Override
     @Transactional
     public void delete(Long menuId){
@@ -121,7 +96,30 @@ public class SysMenuServiceImpl implements SysMenuService {
 
         return subMenuList;
     }
+    /**
+     * 根据父菜单，查询子菜单
+     * @param parentId 父菜单ID
+     * @param menuIdList  用户菜单ID
+     */
+    private List<SysMenuBean> queryListParentId(Long parentId, List<Long> menuIdList) {
+        List<SysMenuBean> menuList = queryListParentId(parentId);
+        if(menuIdList == null){
+            return menuList;
+        }
 
+        List<SysMenuBean> userMenuList = new ArrayList<>();
+        for(SysMenuBean menu : menuList){
+            if(menuIdList.contains(menu.getMenuId())){
+                userMenuList.add(menu);
+            }
+        }
+        return userMenuList;
+    }
+
+    /**
+     * 获取所有菜单
+     * @return
+     */
     @Override
     public List<SysMenuBean> selectMenuList() {
         return sysMenuMapper.selectMenuList();
@@ -133,7 +131,7 @@ public class SysMenuServiceImpl implements SysMenuService {
     }
 
     @Override
-    public int inserMenu(SysMenuBean sysMenuBean) {
+    public int insertMenu(SysMenuBean sysMenuBean) {
         return sysMenuMapper.insert(sysMenuBean);
     }
 
@@ -141,4 +139,5 @@ public class SysMenuServiceImpl implements SysMenuService {
     public int updateMenu(SysMenuBean sysMenuBean) {
         return sysMenuMapper.updateByPrimaryKeySelective(sysMenuBean);
     }
+
 }

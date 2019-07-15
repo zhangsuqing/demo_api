@@ -37,5 +37,9 @@ public interface SysMenuMapper{
      */
     List<SysMenuBean> queryNotButtonList();
 
+    /**
+     * 获取所有菜单
+     * @return
+     */
     List<SysMenuBean> selectMenuList();
 }

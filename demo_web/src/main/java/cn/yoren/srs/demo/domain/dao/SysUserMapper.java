@@ -41,5 +41,9 @@ public interface SysUserMapper{
      */
     SysUserBean queryByUserName(String username);
 
+    /**
+     * 获取所有用户信息
+     * @return
+     */
     List<SysUserBean> selectUserList();
 }

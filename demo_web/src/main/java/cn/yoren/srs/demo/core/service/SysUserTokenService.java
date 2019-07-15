@@ -16,11 +16,6 @@ import java.util.List;
  * @date 2019-07-09 16:29:43
  */
 public interface SysUserTokenService{
-
-    Page queryPage(Map<String, Object> params);
-
-    List<SysUserTokenBean> queryList(Map<String, Object> params);
-
     /**
      * 生成token
      * @param userId  用户ID
@@ -38,5 +33,9 @@ public interface SysUserTokenService{
      * @param token
      */
     SysUserTokenBean queryByToken(String token);
+    /**
+     * 更新token过期时间
+     */
+    int updateTokenExpire(Long userId);
 }
 

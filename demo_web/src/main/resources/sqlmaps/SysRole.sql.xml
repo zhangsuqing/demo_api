@@ -101,6 +101,8 @@
 	</select>
 
     <select id="getRoleList" resultMap="BaseResultMap">
-        select * from sys_role
+        select
+        <include refid="Base_Column_List" />
+        from sys_role
     </select>
 </mapper>
